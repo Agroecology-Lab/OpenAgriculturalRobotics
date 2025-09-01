@@ -9,7 +9,9 @@ images: []
 ---
 
 ## Getting Started
-An open-source agricultural robotics platform integrating key projects and two open hardware platforms, a small development rover and a full scale ag rover.
+An open-source agricultural robotics platform integrating key software projects into a coherent containerised stack.
+
+Documenting two open hardware platforms, a small development rover and a full scale ag rover.
 
 # Core ROS2 Packages
 
