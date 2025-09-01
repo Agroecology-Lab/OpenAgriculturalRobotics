@@ -9,24 +9,27 @@ images: []
 ---
 
 ## Getting Started
-An open-source agricultural robotics platform integrating FarmBot-ROS, Linorobot2 hardware, and edge AI capabilities for field applications
+An open-source agricultural robotics platform integrating key projects and two open hardware platforms, a small development rover and a full scale ag rover.
 
-# Core Packages
+# Core ROS2 Packages
 
-### Open Agricultural Robotics _interfaces
-
-### farmbot-ros-trailblazer 
-
-### farmbot-ros-coverage planner
+### ublox_dgnss
+UBLOX UBX messaging, for ZED-X20P, ZED-F9P and ZED-F9R devices. 
 
 ### farmbot-ros-polestar 
 robot localization 
 
+### farmbot-ros-trailblazer 
+Coverage planner
+
+### farmbot-ros-pathfinder
+Navigation planner
+
 ### Linrobot2 hardware 
-Provides base hardware abstraction, sensor integration, and already bundles Nav2 (localisation, mapping, planning).
+Provides base hardware abstraction, sensor & motor driver integration, and already bundles Nav2 (localisation, mapping, planning).
 
 
-# APIs & Message Types
+#  Message Types
 
 | Topic            | Message Type                                | Publisher                         | Subscriber(s)                          | Purpose                                |
 | ---------------- | ------------------------------------------- | --------------------------------- | -------------------------------------- | -------------------------------------- |
