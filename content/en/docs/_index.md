@@ -30,6 +30,12 @@ Navigation planner
 ### Linrobot2 hardware 
 Provides base hardware abstraction, sensor & motor driver integration, and already bundles Nav2 (localisation, mapping, planning).
 
+### Flexbe 
+FlexBE is a high-level behavior engine coordinating the capabilities of a robot in order to solve complex tasks. Behaviors are modeled as hierarchical state machines (HFSM)
+
+### flexible_behavior_trees
+The FlexBE state implementations send goals to the BT server to load and execute a BT with and without a user defined goal. FlexBE orchestrates the execution of different BTs while the BehaviorTree.CPP framework executes the BTs and passes data between nodes and BTs.
+
 
 #  Message Types
 
