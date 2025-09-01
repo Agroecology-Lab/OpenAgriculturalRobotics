@@ -33,7 +33,7 @@ Defines a control system that predicts and optimizes the vehicle's trajectory ov
 ### [Linrobot2 hardware](https://github.com/rosmo-robot/linorobot2_hardware/tree/master)
 Provides base hardware abstraction, sensor & motor driver integration, and already bundles Nav2 (localisation, mapping, planning).
 
-### [flexbe](https://github.com/flexbe) 
+### [flexbe-webui](https://github.com/FlexBE/flexbe_webui) 
 FlexBE is a high-level behavior engine coordinating the capabilities of a robot in order to solve complex tasks. Behaviors are modeled as hierarchical state machines (HFSM)
 
 ### [flexible_behavior_trees](https://github.com/FlexBE/flexible_behavior_trees)
