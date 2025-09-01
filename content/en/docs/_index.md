@@ -8,31 +8,46 @@ draft: false
 images: []
 ---
 
-Getting Started
+## Getting Started
+An open-source agricultural robotics platform integrating FarmBot-ROS, Linorobot2 hardware, and edge AI capabilities for field applications
 
-Hardware setup 
+# Core Packages
 
-First simulation run
+### Open Agricultural Robotics _interfaces
 
-Core Packages
+### farmbot-ros-trailblazer 
 
-Open Agricultural Robotics _interfaces
+### farmbot-ros-coverage planner
 
-farmbot_planner
+### farmbot-ros-polestar 
+robot localization 
 
-Coverage planning
+### Linrobot2 hardware 
+Provides base hardware abstraction, sensor integration, and already bundles Nav2 (localisation, mapping, planning).
 
-APIs & Message Types
 
-CANbus message formats
+# APIs & Message Types
 
-Installing the container 
+| Topic            | Message Type                                | Publisher                         | Subscriber(s)                          | Purpose                                |
+| ---------------- | ------------------------------------------- | --------------------------------- | -------------------------------------- | -------------------------------------- |
+| `/cmd_vel`       | `geometry_msgs/Twist`                       | farmbot-ros task planner          | Linorobot2 motor controller            | Robot motion commands                  |
+| `/joint_states`  | `sensor_msgs/JointState`                    | Linorobot2 HW drivers             | farmbot-ros, state estimator           | Robot arm/joint positions              |
+| `/tool_control`  | `std_msgs/String` or custom                 | farmbot-ros task planner          | Tool actuator drivers                  | Activate tools (e.g. seeder, weeder)   |
+| `/planting_task` | `std_msgs/String` or custom                 | farmbot-ros scheduler             | farmbot-ros execution engine           | High-level task sequencing             |
+| `/sensor_data`   | `sensor_msgs/Imu`, `std_msgs/Float32`, etc. | Linorobot2 sensors                | farmbot-ros analytics, AGRARIAN uplink | Soil moisture, temp, other IoT sensors |
+| `/gps/fix`       | `sensor_msgs/NavSatFix`                     | ZED-F9P GNSS                      | farmbot-ros navigation, AGRARIAN cloud | GNSS position (RTK-corrected)          |
+| `/navsat/odom`   | `nav_msgs/Odometry`                         | ZED-F9P GNSS + farmbot-ros fusion | Navigation stack                       | Robot localization                     |
+| `/logs`          | `std_msgs/String`                           | ROS2 logger                       | NB-IoT uplink → AGRARIAN Testbed 3     | System diagnostics                     |
+| `/status`        | `std_msgs/String`                           | farmbot-ros                       | AGRARIAN Testbed 3 dashboard           | High-level system status               |
 
-Running in Gazebo simulation
 
-Deploying on real rover
+# CANbus message formats
 
-Connecting IoT sensors
+# Installing the containers 
 
-Testbed Integration
+# Micro-rover hardware
+
+# Rover hardware
+
+
 
