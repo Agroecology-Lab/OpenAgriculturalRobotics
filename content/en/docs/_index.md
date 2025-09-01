@@ -15,7 +15,7 @@ Documenting two open hardware platforms, a small development rover and a full sc
 
 # Core ROS2 Packages
 
-### ublox_dgnss
+### [ublox_dgnss](https://github.com/aussierobots/ublox_dgnss)
 UBLOX UBX messaging, for ZED-X20P, ZED-F9P and ZED-F9R devices. 
 
 ### [farmbot-ros-polestar](https://github.com/farmbot-ros/polestar)
