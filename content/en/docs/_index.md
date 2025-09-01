@@ -18,22 +18,25 @@ Documenting two open hardware platforms, a small development rover and a full sc
 ### ublox_dgnss
 UBLOX UBX messaging, for ZED-X20P, ZED-F9P and ZED-F9R devices. 
 
-### farmbot-ros-polestar 
+### [farmbot-ros-polestar](https://github.com/farmbot-ros/polestar)
 robot localization 
 
-### farmbot-ros-trailblazer 
+### [farmbot-ros-trailblazer](https://github.com/Agroecology-Lab/farmbot_planner)
 Coverage planner
 
-### farmbot-ros-pathfinder
+### [farmbot-ros-pathfinder](https://github.com/farmbot-ros/pathfinder/tree/develop/src)
 Navigation planner
 
-### Linrobot2 hardware 
+### [farmbot-ros-drivecore](https://github.com/Agroecology-Lab/farmbot_controller)
+Defines a control system that predicts and optimizes the vehicle's trajectory over a finite time horizon
+
+### [Linrobot2 hardware](https://github.com/rosmo-robot/linorobot2_hardware/tree/master)
 Provides base hardware abstraction, sensor & motor driver integration, and already bundles Nav2 (localisation, mapping, planning).
 
-### Flexbe 
+### [flexbe](https://github.com/flexbe) 
 FlexBE is a high-level behavior engine coordinating the capabilities of a robot in order to solve complex tasks. Behaviors are modeled as hierarchical state machines (HFSM)
 
-### flexible_behavior_trees
+### [flexible_behavior_trees](https://github.com/FlexBE/flexible_behavior_trees)
 The FlexBE state implementations send goals to the BT server to load and execute a BT with and without a user defined goal. FlexBE orchestrates the execution of different BTs while the BehaviorTree.CPP framework executes the BTs and passes data between nodes and BTs.
 
 
