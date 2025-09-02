@@ -11,7 +11,7 @@ images: []
 ## Getting Started
 An open-source agricultural robotics platform integrating key software projects into a coherent containerised stack.
 
-Documenting two open hardware platforms, a small development rover and a full scale ag rover.
+Documenting two open hardware platforms running the stack, a small development rover and a full scale ag rover.
 
 # Core ROS2 Packages
 
@@ -31,7 +31,7 @@ Defines a control system that predicts and optimizes the vehicle's trajectory ov
 Provides base hardware abstraction, sensor & motor driver integration, and already bundles Nav2 (localisation, mapping, planning).
 
 
-#  Message Types
+#  ROS2 Message Types
 
 | Publisher Node              | Topic                     | Message Type                     | Description                            |
 | --------------------------- | ------------------------- | -------------------------------- | -------------------------------------- |
@@ -63,11 +63,19 @@ Provides base hardware abstraction, sensor & motor driver integration, and alrea
 
 # CANbus message formats
 
-# Installing the containers 
+[OpenCyphal](https://opencyphal.org/)
 
-# Micro-rover hardware
+# Micro-rover development hardware
+
+Olimex iMX8MP-SOM-4GB-IND: A powerful System-on-Module (SoM) featuring a quad-core Arm Cortex-A53 processor, Cortex-M7 real-time core, 4GB LPDDR4 RAM, and a 2.3 TOPS Neural Processing Unit (NPU). It supports mainline Linux and operates in an industrial-grade temperature range of -20°C to +85°C.
+
+Adafruit Metro RP2350: A microcontroller board featuring the RP2350 chip, offering dual-core processing capabilities, ample GPIO pins, and support for various peripherals.
+
+Waveshare [Canbus shield](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)
+
+SimpleFOC canbus driver [possibly](https://cormack.xyz/L433motordriver/)
 
 # Rover hardware
 
-
+TBC
 
