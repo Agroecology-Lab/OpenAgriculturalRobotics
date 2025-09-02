@@ -73,9 +73,12 @@ Olimex [iMX8MP-SOM-4GB-IND](https://www.olimex.com/Products/SOM/NXP-iMX8/iMX8MP-
 
 Waveshare [Canbus shield](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)
 
-SimpleFOC canbus driver [possibly](https://cormack.xyz/L433motordriver/)
+Sparkfun [GNSS/RTK](https://www.sparkfun.com/sparkfun-gnss-rtk-l1-l5-breakout-neo-f9p-qwiic.html)
+
+SimpleFOC canbus drivers [possibly](https://cormack.xyz/L433motordriver/)
 
 # Rover hardware
+Electronics from Micro-rover
 
-TBC
+Drivers & Motors TBC
 
