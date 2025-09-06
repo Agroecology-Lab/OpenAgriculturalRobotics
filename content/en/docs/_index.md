@@ -91,9 +91,16 @@ Skid steer 4x4 rover
 As above from Micro-rover
 
 ### Mechanical
-SimpleFOC canbus drivers [RP2350](https://github.com/sequoia-hope/rp2350-motor-controller)
 
-500w electric [wheelbarrow wheel with ag tyre](https://www.aliexpress.com/item/1005009662727177.html)
+
+| Components                | Description                               | Quantity |
+| ------------------------- | ----------------------------------------- | -------- |
+|  SimpleFOC canbus drivers |  [RP2350](https://github.com/sequoia-hope/rp2350-motor-controller)    | 2       |
+|  500w electric wheel   |    [wheelbarrow wheel with ag tyre](https://www.aliexpress.com/item/1005009662727177.html)   |   4   |
+| Suspension              |   [Fatbike fork](https://www.aliexpress.com/item/1005005666919971.html?)    | 4       |
+|    Chassis structure      |          | many       |
+|  Chassis connections      | 33.7 [keeclamp aluminum](https://www.scaffolding-direct.co.uk/aluminium-90-degree-crossover-33-7mm-kee-lite-l45-6/)   | Many      |
+
 
 
 
