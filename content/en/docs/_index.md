@@ -25,6 +25,8 @@ UBLOX UBX messaging, for ZED-X20P, ZED-F9P and ZED-F9R devices.
 
 ### [Flexbe behaviour tree](https://github.com/FlexBE/flexible_behavior_trees)
 
+### [Flexbe WebUI](https://github.com/FlexBE/flexbe_webui)
+
 
 #  ROS2 Message Types
 
