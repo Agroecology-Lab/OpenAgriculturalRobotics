@@ -43,22 +43,14 @@ UBLOX UBX messaging, for ZED-X20P, ZED-F9P and ZED-F9R devices.
 
 # Micro-rover development hardware
 
-Skid steer 4x4 rover 
-
 ### Electronics
-
 
 | Components                | Description                               | Quantity |
 | ------------------------- | ----------------------------------------- | -------- |
-|  
-Olimex [iMX8MP-SOM-4GB-IND](https://www.olimex.com/Products/SOM/NXP-iMX8/iMX8MP-SOM-4GB-IND/open-source-hardware) with [carrier](https://www.olimex.com/Products/SOM/NXP-iMX8/iMX8MP-SOM-EVB-IND/open-source-hardware): |   A powerful System-on-Module (SoM) featuring a quad-core Arm Cortex-A53 processor, Cortex-M7 real-time core, 4GB LPDDR4 RAM, and a 2.3 TOPS Neural Processing Unit (NPU). It supports mainline Linux and operates in an industrial-grade temperature range of -20°C to +85°C.
-   | 2       |
+| Olimex [iMX8MP-SOM-4GB-IND](https://www.olimex.com/Products/SOM/NXP-iMX8/iMX8MP-SOM-4GB-IND/open-source-hardware) with [carrier](https://www.olimex.com/Products/SOM/NXP-iMX8/iMX8MP-SOM-EVB-IND/open-source-hardware): |   A powerful System-on-Module (SoM) featuring a quad-core Arm Cortex-A53 processor, Cortex-M7 real-time core, 4GB LPDDR4 RAM, and a 2.3 TOPS Neural Processing Unit (NPU). It supports mainline Linux and operates in an industrial-grade temperature range of -20°C to +85°C.   | 2       |
 |[Adafruit Metro RP2350](https://www.adafruit.com/product/6003): |A microcontroller board featuring the RP2350 chip, offering dual-core processing capabilities, ample GPIO pins, and support for various peripherals.| 1 |
-|Waveshare [Canbus shield](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)||
-|Sparkfun [GNSS/RTK](https://www.sparkfun.com/sparkfun-gnss-rtk-l1-l5-breakout-neo-f9p-qwiic.html)||
-
-### Mechanical
-SimpleFOC canbus drivers [possibly](https://cormack.xyz/L433motordriver/)
+|Waveshare [Canbus shield](https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/)|1|
+|Sparkfun [GNSS/RTK](https://www.sparkfun.com/sparkfun-gnss-rtk-l1-l5-breakout-neo-f9p-qwiic.html)|2|
 
 
 # Full size Rover hardware
