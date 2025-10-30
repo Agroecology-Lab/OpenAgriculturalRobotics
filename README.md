@@ -1,4 +1,4 @@
-10cm x 10cm structure for all electronic modules, can be stacked, [orp option](https://easyeda.com/editor#id=b403f122191b47ddaedabcfa5c958d17) all modules available for purchase from upstream vendors or Electronz
+10cm x 10cm structure for all electronic modules, can be stacked, electronics system for [Open Robotic Platform](https://openroboticplatform.com/) [orp 10x10](https://easyeda.com/editor#id=b403f122191b47ddaedabcfa5c958d17) all modules available for purchase from upstream vendors or Electronz
 
 **SBC**
 [Avaota](https://pine64.com/product/yuzuki-avaota-a1-single-board-computer-4gb-32gb/)
