@@ -23,7 +23,7 @@ Brushed
 [Demir firmware](https://github.com/dsm/demir_firmware) Make it talk RP2350 canbus
 
 
-[Meta carrier](https://easyeda.com/editor#id=!a8b7ed53f554478da1b66d16b2d54550|b0f557ea608b423eaac4b90f4e69ec9f) for VN or RP2035 modules to be routed, incorporates []()
+[Meta carrier](https://easyeda.com/editor#id=!a8b7ed53f554478da1b66d16b2d54550|b0f557ea608b423eaac4b90f4e69ec9f) for VNH7049 or RP2035 modules to be routed, incorporates [MJbot switch](https://mjbots.com/products/mjpower-ss)
 
 
 **Power**
